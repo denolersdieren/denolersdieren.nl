@@ -1,0 +1,5 @@
+It comes just as it is. I am sorry if that does not work for you. Also there are quite some English commments, yet there has been used some Dutch, in a future release I would like to fix this.
+
+The theme is pretty much based on the Wordpress TwentyTen theme that comes with Wordpress.
+
+Edwin

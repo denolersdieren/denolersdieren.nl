@@ -1,0 +1,417 @@
+/* @TODO toepassen schaduw top header bottom footer*/
+
+/*
+	kleurschema
+	body    => #ef2f2f;
+	lichter => #e74f4f;
+	donker  => #d52b2b;
+*/
+
+
+body{
+	background: #ef2f2f;
+	color: #333;
+	
+}
+/*
+Typographic styles
+*/
+h1{
+	font-family: Bazar;
+	border-bottom: 1px solid #ef2f2f;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 185%;
+	color: #000;
+}
+h2{
+	font-weight: normal;
+	font-size: 150%;
+	color: #000;
+}
+
+#featuredcontainer h1 {
+	width: 100%;
+}
+
+#laatstenieuws{
+	font-family: Bazar;
+	border-bottom: 1px solid #ef2f2f;
+	padding: 0 0 3px 20px;
+	width: 100%;
+	text-transform: uppercase;
+}
+h3{
+	color: #000;
+	font-size: 140%;
+}
+.artikels h3 {
+	font-family: Bazar;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+hr{
+	height: 1px;
+	clear:both;
+}
+#nolersfooter h1,
+#nolersfooter h2,
+#nolersfooter h3{
+	font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+}
+
+a,
+a:visited{
+	color: #333;
+	font-weight: bold;
+/*	line-height: 1;*/
+}
+a:hover{
+	color: #d52b2b;
+}
+#header{
+	background: url(../img/noler_paint.png) no-repeat 0px 0px;
+	padding: 10px 0;
+}
+
+#nolersheader{
+	border-bottom: 3px solid #e74f4f;
+	background: #ef2f2f url(../img/noler_shade_head.png) repeat-x 0px 0px;
+    border-top: 2px solid #d52b2b;
+}
+#nolerscontent{
+	background: #fff;
+	padding: 20px 0 10px 0;
+/*	min-height: 300px;*/
+}
+#nolersfooter{
+	border-top: 3px solid #e74f4f;
+	background: #ef2f2f;
+	color: #000;
+	padding: 10px 0 0 0;
+	font-size: 0.9em;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#nolersfooter h3{
+	color: #000;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-transform: none;
+}
+#nolersfooter a,
+#nolersfooter a:visited{
+	color: #000;
+}
+#nolersfooter a:hover{
+	color: #fff;
+}
+#nolersfooter #site-generator a{
+	text-decoration: none;
+}
+#nolersfooter p{
+	margin-bottom: 10px;
+}
+#nolersfooter .children{
+	margin-bottom: 0;
+}
+#site-info {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+#site-generator {
+	margin: 0 0 0 10px;
+	font-size: 0.9em;
+}
+#site-generator a, #site-info a,
+#site-generator a:visited, #site-info a:visited {
+	font-weight: normal;
+	color: #666;
+}
+#site-info-container{
+	border-left: 1px solid #d52b3b;
+	border-right: 1px solid #d52b3b;
+	border-top: 1px solid #d52b3b;
+	padding: 4px 30px;
+	background: #fff url(../img/nolerlogo_small.gif) no-repeat 10px 2px;
+	color: #666;
+}
+.xoxo {
+	list-style: none;
+	margin: 0;
+}
+.widget-container{
+	margin: 0 0 0 0;
+}
+
+/************************************************
+*	Navbar      								*
+************************************************/
+
+#navbar {
+	background: none;
+	border-bottom: 1px solid #fff;
+	height: 40px;
+	font-size: 11px;
+	font-family: Helvetica, Arial, Trebuchet MS, Verdana;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 73px;
+	padding: 0px;
+	}
+	
+	#navbar2{
+		border-top: 1px solid #fff;
+		position: relative;
+		top: 46px;
+	}
+
+#navicons {
+	float: right;
+	display: block;
+	margin: 7px 10px 0px 5px;
+	}
+
+.navicon {
+	float: right !important;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 5px;
+	}
+
+/*** ESSENTIAL STYLES ***/
+
+.ot-menu, .ot-menu * {
+	margin:	0;
+	padding: 0;
+	list-style:	none;
+	}
+
+.ot-menu {
+	line-height: 1.0;
+	}
+
+.ot-menu ul {
+	position: absolute;
+	top: -999em;
+	width: 160px; /* left offset of submenus need to match (see below) */
+	}
+
+.ot-menu ul li {
+	width: 100%;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	}
+
+.ot-menu li:hover {
+	visibility:	inherit; /* fixes IE7 'sticky bug' */
+	}
+
+.ot-menu li {
+	float: left;
+	position: relative;
+	}
+
+.ot-menu a {
+	display: block;
+	position: relative;
+	}
+
+.ot-menu li:hover ul,
+.ot-menu li.sfHover ul {
+	left: 0;
+	top: 40px; /* match top ul list item height */
+	z-index: 99;
+	}
+
+ul.ot-menu li:hover li ul,
+ul.ot-menu li.sfHover li ul {
+	top: -999em;
+	}
+
+ul.ot-menu li li:hover ul,
+ul.ot-menu li li.sfHover ul {
+	left: 160px; /* match ul width */
+	top: 0;
+	}
+
+ul.ot-menu li li:hover li ul,
+ul.ot-menu li li.sfHover li ul {
+	top: -999em;
+	}
+
+ul.ot-menu li li li:hover ul,
+ul.ot-menu li li li.sfHover ul {
+	left: 160px; /* match ul width */
+	top: 0;
+	}
+
+/*** DEMO SKIN ***/
+
+.ot-menu .current-menu-item a,
+.ot-menu .current_page_parent a,
+.ot-menu .current-menu-parent a {
+	color: #fff !important;
+	border-bottom: 5px solid #fff;
+	}
+
+.ot-menu .current-menu-item li a, 
+.ot-menu li .current-menu-item a,
+.ot-menu .current-menu-parent li a,
+.ot-menu li .current-menu-parent a
+.ot-menu .current_page_parent li a,
+.ot-menu li .current_page_parent a,
+{
+	color: #ef2f2f !important;
+	background: #000000;
+	border-bottom: none;
+	}
+#menu-header ul li a{
+	color: #000 !important;
+}
+#menu-header ul li a:hover{
+	color: #fff !important;
+}
+
+.ot-menu {
+	float: left;
+	margin-bottom: 0;
+	}
+
+.ot-menu a {
+	padding-bottom: 5px;
+	padding: 17px 10px 12px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	line-height: 12px;
+	}
+
+.ot-menu li li a, .ot-menu li li a:visited {
+	color: #000;
+	padding: 6px 10px 6px 10px;
+	text-decoration: none;
+	text-transform: none;
+	text-shadow: none;
+	border: none;
+	}
+
+.ot-menu a, .ot-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color: #fff;
+	}
+
+.ot-menu a:focus, .ot-menu a:hover, .ot-menu a:active {
+	background:	none;
+	border-bottom: 5px solid #fff;
+	color: #fff;
+	outline: 0;
+	}
+
+.ot-menu li {
+	background: none;
+	}
+
+.ot-menu li li {
+	background:	#FFFFFF;
+	border: none;
+	}
+
+.ot-menu li li li {
+	background:	#FFFFFF;
+	border: none;
+	}
+
+.ot-menu li:hover, .ot-menu li.sfHover {
+	background:	none;
+	border-bottom: none;
+	outline: 0;
+	}
+
+.ot-menu li li:hover, .ot-menu li li.sfHover {
+	background:	#000000;
+	color: #FFFFFF;
+	border: none;
+	outline: 0;
+	padding: 0px;
+	}
+
+.ot-menu li li a:focus, .ot-menu li li a:hover, .ot-menu li li a:active {
+	background:	#000000;
+	color: #fff;
+	border-bottom: none;
+	outline: 0;
+	}
+
+/*** ARROWS **/
+
+.ot-menu a.sf-with-ul {
+	padding-right: 2.25em;
+	min-width: 1px; /* trigger IE7 hasLayout so spans position accurately */
+	}
+
+.sf-sub-indicator {
+	position: absolute;
+	display: block;
+	right: 10px;
+	top: 16px; /* IE6 only */
+	width: 10px;
+	height:	10px;
+	text-indent: -999em;
+	overflow: hidden;
+	background:	url(../img/arrows-ffffff.png) no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+	}
+
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top: 16px;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+	}
+
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+	}
+
+/* point right for anchors in subs */
+.ot-menu ul .sf-sub-indicator { 
+	background-position:  -10px 0; 
+	}
+
+.ot-menu ul a > .sf-sub-indicator { 
+	top: 5px;
+	background-position:  0 0; 
+	}
+
+/* apply hovers to modern browsers */
+.ot-menu ul a:focus > .sf-sub-indicator,
+.ot-menu ul a:hover > .sf-sub-indicator,
+.ot-menu ul a:active > .sf-sub-indicator,
+.ot-menu ul li:hover > a > .sf-sub-indicator,
+.ot-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+	}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	none;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+	}
+
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+	}
+	
+

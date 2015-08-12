@@ -1,0 +1,249 @@
+
+.sidebar_sponser{
+	width: 200px;
+	height: 300px;
+	background: red;
+}
+#nav-below {
+	border-top: #ccc 1px solid;
+	margin-bottom:10px;
+}
+#nav-below a{
+	color: #ccc;
+}
+#nav-below .nav-next {
+	float: right;
+}
+#nav-below .nav-previous {
+	float: left;
+}
+.entry-meta, .entry-meta a{
+	color: #666;
+	margin: -20px 0px 10px;
+}
+.post {
+	margin-bottom: 10px;
+}
+
+#respond{
+	background: #eee;
+	color: #000;
+	border: #ccc 1px solid;
+	margin: 0 90px;
+	width: 780px;
+	padding-top: 10px;
+	position: relative;
+}
+.form-allowed-tags{
+	bottom: 45px;
+	position: absolute;
+	right: 20px;
+	width: 300px;
+	background: #FFFFE0;
+	border: 1px solid #E6DB55;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	padding: 5px;
+	font-size: 0.9em;
+}
+input#author, input#email, input#url, textarea#comment {
+	display:block;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size: 1em;
+}
+input#author, input#email, input#url{
+	background: url(../img/textinput.png) no-repeat;
+	border: 0;
+	width: 225px;
+	height: 25px;
+	padding: 10px 10px;
+
+}
+input#author:focus, input#email:focus, input#url:focus{
+	background: url(../img/textinput-highlighted.png) no-repeat;
+
+}
+.comment-form-email,
+.comment-form-author,
+.comment-form-url{
+	float:left;
+}
+
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url{
+	color: #000;
+	margin: 5px 0 0 10px;
+	font-weight: bold;
+}
+.comment-notes,
+.logged-in-as{
+	margin: 5px 0 5px 15px;
+}
+.comment-form-author,
+.comment-form-email{
+margin-bottom: 0;
+}
+#respond textarea{
+	background: url(../img/textarea_02.png) repeat-y;
+	border: 0;
+	resize: vertical;
+	overflow: auto;
+	margin:0;
+	padding:0 25px 5px 12px;
+}
+#respond h3{
+	margin: 0 0 10px 15px;
+}
+.form-submit{
+	margin: 15px;
+}
+#respond label{
+	margin: 0 0 0 5px;
+}
+
+#respond textarea:focus{
+	background: url('../img/textarea_highlighed_02.png') repeat-y;
+}
+.commenttextareatop{
+	background: url(../img/textarea_01.png) no-repeat;
+	height: 19px;
+	display:block;
+}
+.commenttextareabottom{
+	background: url(../img/textarea_03.png) no-repeat;
+	height: 21px;
+	display:block;
+}
+.commenttextareatophl{
+	background: url(../img/textarea_highlighed_01.png) no-repeat !important;
+}
+.commenttextareabothl{
+	background: url(../img/textarea_highlighed_03.png) no-repeat !important;
+}
+
+.nocomments{
+	margin-left: 10px;
+}
+
+/*Comments - used the css that came with TwentyTen*/
+
+#comments {
+	clear: both;
+	margin: 0 0 10px 10px;
+}
+#comments .navigation {
+	padding: 0 0 18px 0;
+}
+h3#comments-title,
+h3#reply-title {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+h3#comments-title {
+	padding: 12px 0;
+}
+.commentlist {
+	list-style: none;
+}
+
+.commentlist li.comment {
+	border-bottom: 1px solid #CCC;
+	line-height: 24px;
+	margin: 0 0 24px 0;
+	padding: 0 0 0 56px;
+	position: relative;
+}
+
+#comments .comment-body ul,
+#comments .comment-body ol {
+	margin-bottom: 18px;
+}
+#comments .comment-body p:last-child {
+	margin-bottom: 6px;
+}
+#comments .comment-body blockquote p:last-child {
+	margin-bottom: 24px;
+}
+.commentlist ol {
+	list-style: decimal;
+}
+.commentlist .avatar {
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+.comment-author {
+}
+.comment-author cite {
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+}
+.comment-author .says {
+	font-style: italic;
+}
+.comment-meta {
+	font-size: 12px;
+	margin: 0 0 18px 0;
+}
+.comment-meta a:link,
+.comment-meta a:visited {
+	color: #888;
+	text-decoration: none;
+}
+.comment-meta a:active,
+.comment-meta a:hover {
+	color: #ff4b33;
+}
+.commentlist .even {
+}
+.commentlist .bypostauthor {
+}
+.reply {
+	font-size: 12px;
+	padding: 0 0 24px 0;
+}
+.reply a,
+a.comment-edit-link {
+	color: #888;
+}
+.reply a:hover,
+a.comment-edit-link:hover {
+	color: #ff4b33;
+}
+.commentlist .children {
+	list-style: none;
+	margin: 0;
+	
+}
+.commentlist .children li {
+	border: none;
+	margin: 0;
+}
+.nopassword,
+.nocomments {
+	display: none;
+}
+#comments .pingback {
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 18px;
+	padding-bottom: 18px;
+}
+.commentlist li.comment+li.pingback {
+	margin-top: -6px;
+}
+#comments .pingback p {
+	color: #888;
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+#comments .pingback .url {
+	font-size: 13px;
+	font-style: italic;
+}
